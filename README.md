@@ -13,7 +13,7 @@ But it can be show in a simple ui:
 ![UI](https://github.com/TopDeveloper29/MediaSessionHotKey/assets/141742981/34ba2968-777a-4afc-bf52-8649c2bd5547)
 
 The keyboard shortcut are system wide and alow to do all stuff you can do in Tray / Ui:
-|          Name         |   Type    |                 
+|          Name         |   Shortcut    |                 
 |-----------------------|-----------|
 | Play / Pause | CTRL + 9 |
 | Next | CTRL + 0 |
