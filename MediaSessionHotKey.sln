@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaSessionHotKey", "MediaSessionHotKey.csproj", "{8840EA83-691E-4234-A4D5-5B7D46A86198}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MediaSessionHotkey_Setup", "..\MediaSessionHotkey_Setup\MediaSessionHotkey_Setup.vdproj", "{15E6D409-5385-2FB9-79A7-5D8BD978693D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{8840EA83-691E-4234-A4D5-5B7D46A86198}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8840EA83-691E-4234-A4D5-5B7D46A86198}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8840EA83-691E-4234-A4D5-5B7D46A86198}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15E6D409-5385-2FB9-79A7-5D8BD978693D}.Debug|Any CPU.ActiveCfg = Debug
+		{15E6D409-5385-2FB9-79A7-5D8BD978693D}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

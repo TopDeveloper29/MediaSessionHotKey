@@ -8,10 +8,11 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>MediaSessionHotKey</RootNamespace>
     <AssemblyName>MediaSessionHotKey</AssemblyName>
-    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -33,7 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Resources\media.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\MediaSessionHotkey.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -87,11 +88,14 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Dubya.WindowsMediaController">
-      <Version>2.5.3</Version>
+      <Version>2.5.5</Version>
+    </PackageReference>
+    <PackageReference Include="MaterialSkin.2">
+      <Version>2.3.1</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\media.ico" />
+    <None Include="Resources\MediaSessionHotkey.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

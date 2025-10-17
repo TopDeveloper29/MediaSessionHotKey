@@ -63,9 +63,9 @@ namespace MediaSessionHotKey.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon media {
+        internal static System.Drawing.Icon MediaSessionHotkey {
             get {
-                object obj = ResourceManager.GetObject("media", resourceCulture);
+                object obj = ResourceManager.GetObject("MediaSessionHotkey", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
